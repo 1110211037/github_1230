@@ -1,0 +1,24 @@
+// 引入 Bootstrap
+@import "bootstrap/scss/bootstrap";
+
+// 自定義咖啡廳風格
+body {
+  font-family: "Microsoft JhengHei", sans-serif;
+  background-color: #fdfaf7;
+}
+
+.hero-section {
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+              url('https://images.unsplash.com/photo-1509042239860-f550ce710b93?q=80&w=1887&auto=format&fit=crop');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 100px 0;
+}
+
+.card {
+  transition: transform 0.3s;
+  &:hover {
+    transform: translateY(-10px);
+  }
+}
